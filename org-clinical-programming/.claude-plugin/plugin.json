@@ -1,0 +1,9 @@
+{
+  "name": "org-clinical-programming",
+  "version": "1.0.0",
+  "description": "Org-wide clinical programming SOP and the clinical-kb MCP server (validated SAS/R asset retrieval on Posit Connect).",
+  "author": {
+    "name": "Posit Solutions Engineering"
+  },
+  "keywords": ["clinical", "adam", "sas", "r", "gxp", "mcp"]
+}

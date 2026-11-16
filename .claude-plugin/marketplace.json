@@ -1,0 +1,33 @@
+{
+  "name": "clinical-programming",
+  "owner": {
+    "name": "Posit Solutions Engineering"
+  },
+  "metadata": {
+    "description": "Governed clinical programming: org SOP + MCP knowledge base, oncology TA conventions, and study ONC-101 configuration.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "org-clinical-programming",
+      "source": "./org-clinical-programming",
+      "description": "Org-wide clinical programming SOP (language/role resolution, retrieve-include-execute-verify-report, gap procedure, QC double programming) and the clinical-kb MCP server declaration.",
+      "version": "1.0.0",
+      "category": "clinical"
+    },
+    {
+      "name": "ta-oncology",
+      "source": "./ta-oncology",
+      "description": "Oncology therapeutic-area conventions: RECIST 1.1 vocabulary, oncology endpoint concepts, PFS/OS censoring philosophy. Sets ta='oncology'.",
+      "version": "1.0.0",
+      "category": "clinical"
+    },
+    {
+      "name": "study-onc101",
+      "source": "./study-onc101",
+      "description": "Study ONC-101 parameters: study_id, production SAS / QC R, SAP v2.0, &dcut, naming convention, mandatory censor_rules_onc101, draft reviewer.",
+      "version": "1.0.0",
+      "category": "clinical"
+    }
+  ]
+}

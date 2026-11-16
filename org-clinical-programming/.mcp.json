@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "clinical-kb": {
+      "type": "remote",
+      "url": "{env:CLINICAL_KB_MCP_URL}",
+      "transport": "http",
+      "headers": {
+        "Authorization": "Key {env:CONNECT_API_KEY}"
+      },
+      "timeout": 30000
+    }
+  }
+}

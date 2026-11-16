@@ -1,0 +1,9 @@
+{
+  "name": "study-onc101",
+  "version": "1.0.0",
+  "description": "Study ONC-101 programming parameters (production SAS, QC R, SAP v2.0, data cutoff, naming).",
+  "author": {
+    "name": "ONC-101 Programming Lead"
+  },
+  "keywords": ["ONC-101", "study"]
+}

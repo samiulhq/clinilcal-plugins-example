@@ -1,0 +1,9 @@
+{
+  "name": "ta-oncology",
+  "version": "1.0.0",
+  "description": "Oncology therapeutic-area conventions for clinical programming (RECIST 1.1, oncology endpoints, censoring philosophy).",
+  "author": {
+    "name": "Oncology TA Standards Board"
+  },
+  "keywords": ["oncology", "recist", "pfs", "os", "orr"]
+}
